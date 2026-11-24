@@ -1,4 +1,4 @@
-# sunasty-tournament-math
+# @sunasty/tournament-math
 
 Zero-dependency Swiss tournament structure calculator, official TCG round/cut presets (Magic: The Gathering, Pokemon TCG, Yu-Gi-Oh!, Disney Lorcana, One Piece TCG, Flesh & Blood, FIDE Chess, Esports), playoff bracket seed generator, and deterministic Monte-Carlo tiebreaker estimator.
 
@@ -14,13 +14,15 @@ Extracted from the core engine powering [Sunasty Tournament Calculator](https://
 ## Installation
 
 ```bash
-npm install sunasty-tournament-math
+npm install @sunasty/tournament-math
+# or via JSR
+npx jsr add @sunasty/tournament-math
 ```
 
 ## Usage
 
 ```js
-import { getPreset, computeStructure, simulate, probRankAtMost } from 'sunasty-tournament-math';
+import { getPreset, computeStructure, simulate, probRankAtMost } from '@sunasty/tournament-math';
 
 const mtg = getPreset('mtg');
 const structure = computeStructure(mtg, 64);

@@ -1,5 +1,5 @@
 {
-  "name": "sunasty-tournament-math",
+  "name": "@sunasty/tournament-math",
   "version": "1.0.0",
   "description": "Zero-dependency Swiss tournament structure calculator, official TCG preset tables (Magic, Pokemon, Yu-Gi-Oh, Lorcana, One Piece, Flesh & Blood), bracket builder, and Monte-Carlo tiebreaker simulator.",
   "type": "module",
