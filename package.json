@@ -1,0 +1,54 @@
+{
+  "name": "sunasty-tournament-math",
+  "version": "1.0.0",
+  "description": "Zero-dependency Swiss tournament structure calculator, official TCG preset tables (Magic, Pokemon, Yu-Gi-Oh, Lorcana, One Piece, Flesh & Blood), bracket builder, and Monte-Carlo tiebreaker simulator.",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "presets.js",
+    "engine.js",
+    "simulate.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test test.js"
+  },
+  "keywords": [
+    "tournament",
+    "swiss",
+    "tcg",
+    "mtg",
+    "pokemon",
+    "yugioh",
+    "lorcana",
+    "one-piece",
+    "flesh-and-blood",
+    "tiebreaker",
+    "omw",
+    "top-cut",
+    "bracket"
+  ],
+  "author": "Sunasty <https://sunasty.com>",
+  "license": "MIT",
+  "homepage": "https://sunasty.com/tournament-calculator/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsulyan/sunasty-tournament-math.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bsulyan/sunasty-tournament-math/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

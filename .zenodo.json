@@ -1,0 +1,26 @@
+{
+  "title": "sunasty-tournament-math: Zero-dependency Swiss Tournament Structure and Tiebreaker Engine",
+  "description": "Zero-dependency JavaScript/TypeScript library implementing Swiss rounds/cut tables, cross-seeded brackets, and Monte-Carlo OMW% tiebreaker simulation.",
+  "creators": [
+    {
+      "name": "Sulyan, Bastien",
+      "affiliation": "Sunasty"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": ["tournament", "swiss", "tcg", "tiebreaker", "bracket"],
+  "related_identifiers": [
+    {
+      "identifier": "https://sunasty.com/tournament-calculator/",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/bsulyan/sunasty-tournament-math",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    }
+  ],
+  "upload_type": "software"
+}

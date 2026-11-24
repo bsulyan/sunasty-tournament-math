@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Sulyan"
+    given-names: "Bastien"
+    affiliation: "Sunasty"
+title: "sunasty-tournament-math"
+version: 1.0.0
+date-released: 2026-11-24
+url: "https://sunasty.com/tournament-calculator/"
+repository-code: "https://github.com/bsulyan/sunasty-tournament-math"
+license: MIT
+keywords:
+  - "tournament"
+  - "swiss"
+  - "tiebreaker"
+  - "tcg"
